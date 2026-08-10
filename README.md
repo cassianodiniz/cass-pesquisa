@@ -13,7 +13,7 @@ Instagram: [@cassiano.diniz](https://www.instagram.com/cassiano.diniz/)
 Copie e envie este prompt ao Claude Code ou ao Codex:
 
 ```text
-Instale https://github.com/cassianodiniz/cass-pesquisa como uma skill pessoal e depois execute /cass-pesquisa. Se a Exa não estiver disponível, use a busca e leitura nativas do ambiente.
+Instale como uma skill pessoal a pasta `cass-pesquisa` deste repositório: https://github.com/cassianodiniz/cass-pesquisa/tree/main/cass-pesquisa. Depois execute `/cass-pesquisa`; antes de cair na busca nativa, procure a Exa.
 ```
 
 Se preferir, baixe diretamente o arquivo [`cass-pesquisa.skill`](https://github.com/cassianodiniz/cass-pesquisa/releases/latest/download/cass-pesquisa.skill) e peça ao agente para instalá-lo como uma skill pessoal.
