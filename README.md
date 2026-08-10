@@ -6,12 +6,13 @@ os dados não permitem concluir.
 
 ## Instalação mais fácil
 
-1. Baixe o arquivo [`cass-pesquisa.skill`](https://github.com/cassianodiniz/cass-pesquisa/releases/latest/download/cass-pesquisa.skill).
-2. Anexe ou indique o arquivo ao Claude Code ou ao Codex.
-3. Cole este pedido:
+Copie e envie este prompt ao Claude Code ou ao Codex:
 
-> Instale este arquivo como uma skill pessoal e depois execute `/cass-pesquisa`. Se a Exa não
-> estiver disponível, use a busca e leitura nativas do ambiente.
+```text
+Instale https://github.com/cassianodiniz/cass-pesquisa como uma skill pessoal e depois execute /cass-pesquisa. Se a Exa não estiver disponível, use a busca e leitura nativas do ambiente.
+```
+
+Se preferir, baixe diretamente o arquivo [`cass-pesquisa.skill`](https://github.com/cassianodiniz/cass-pesquisa/releases/latest/download/cass-pesquisa.skill) e peça ao agente para instalá-lo como uma skill pessoal.
 
 Depois da instalação:
 
@@ -52,4 +53,3 @@ O pacote não contém fichas de pesquisa, dados pessoais, credenciais ou chaves 
 
 - Site: [Praxios](https://www.pda.praxios.com.br/)
 - Instagram: [@cassiano.diniz](https://www.instagram.com/cassiano.diniz/)
-
