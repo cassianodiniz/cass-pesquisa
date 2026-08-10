@@ -19,13 +19,6 @@ Depois da instalação:
 - No Claude Code, use `/cass-pesquisa`.
 - No Codex, use `$cass-pesquisa` ou escolha a skill pelo menu de skills.
 
-## O que precisa estar instalado
-
-- Claude Code ou Codex, já configurado e com acesso à internet.
-- Nada de Python, Node, npm, `npx` ou Firecrawl é necessário.
-- A Exa é recomendada, mas não obrigatória. Sem ela, a skill usa a busca e a leitura disponíveis no
-  próprio ambiente.
-
 ## Instalação manual
 
 Se o agente não instalar automaticamente, extraia a pasta `cass-pesquisa` do arquivo `.skill` para:

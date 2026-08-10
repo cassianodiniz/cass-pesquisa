@@ -11,15 +11,19 @@ escreve texto para publicação — entrega a evidência.
 
 ## Setup
 
-- **Exa** (recomendada, com plano B) — busca e leitura. `https://mcp.exa.ai/mcp`, OAuth em
-  `auth.exa.ai` ou chave em `https://dashboard.exa.ai/api-keys`. As ferramentas são
-  `web_search_exa` e `web_fetch_exa`. Se elas já aparecem disponíveis, use direto; se o seu
-  ambiente carrega ferramenta sob demanda, carregue antes
-  (`ToolSearch({ query: "exa web_search web_fetch", max_results: 5 })`).
-  **Não carregou, não autenticou ou caiu? Não pare — vá pro plano B**: a busca e a leitura que o
-  seu ambiente já oferece, seja qual for o nome delas. "Não carregou" e "não autenticou" são
-  binários: ou a ferramenta está disponível, ou não está. Já "caiu" tem limiar contado, um por
-  sinal — a tabela está em "Quando o leitor cai no meio da execução".
+- **Exa** (recomendada, com plano B) — busca e leitura. **Antes de concluir que a Exa está
+  indisponível ou cair para a busca nativa, passe pelo portão de descoberta:**
+  1. procure ferramentas cujo nome termine em `web_search_exa` e `web_fetch_exa`; prefixos como
+     `mcp__codex_apps__web_search_exa` e `mcp__exa__web_fetch_exa` são a própria Exa;
+  2. se o ambiente tiver descoberta sob demanda, execute
+     `ToolSearch({ query: "exa web_search web_fetch", max_results: 5 })`;
+  3. quando encontrar as ferramentas, faça **uma busca Exa de teste**. Resultado não vazio e sem
+     erro confirma a Exa para a rodada; leia as URLs encontradas com `web_fetch_exa`.
+
+  A lista inicial de ferramentas não basta para declarar ausência. Só use o plano B quando não
+  houver descoberta, nenhuma ferramenta Exa aparecer após a busca, ou a busca de teste falhar.
+  Se a Exa cair depois de ter funcionado, siga o limiar contado em "Quando o leitor cai no meio da
+  execução".
 - **⛔ O freio é a capacidade, não a marca — esta é a regra principal do Setup.** A pergunta não é
   "tenho a Exa?", é **"consigo achar e ler fonte primária?"**.
 
@@ -192,10 +196,12 @@ ampla (15, nunca acima de 25), e o que voltar é oferecido como escolha no Port�
 
 - **Com subagente disponível:** um por sub-pergunta. Texto cru de página **nunca** entra no seu
   contexto. Diga a cada um, literalmente:
-  > *Se seu ambiente carrega ferramenta sob demanda, carregue a Exa primeiro:
-  > `ToolSearch({ query: "exa web_search web_fetch", max_results: 5 })`. Se ela já vier disponível
-  > sem esse passo, use direto. Não carregou, não existe esse mecanismo, ou não responde? **Não
-  > pare**: use a busca e a leitura nativas do seu ambiente e diga no relato qual você usou.
+  > *Antes de usar a busca nativa, passe pelo portão de descoberta da Exa: procure
+  > `web_search_exa` e `web_fetch_exa` inclusive quando vierem com prefixo `mcp__...__`; se houver
+  > descoberta sob demanda, rode `ToolSearch({ query: "exa web_search web_fetch", max_results: 5 })`.
+  > Achou? Faça uma busca Exa de teste e, se ela responder, use a Exa para buscar e ler. Só se ela
+  > não aparecer ou o teste falhar, use a busca e a leitura nativas do seu ambiente e diga no
+  > relato qual você usou.
   > Devolva, por número: o valor, a **frase literal** onde ele aparece, a URL, e n/duração/população.
   > Sem frase literal, escreva `não lido` — não parafraseie a conclusão da fonte.
   > No fim do relato, dois contadores: quantos resultados as buscas devolveram × quantas páginas
