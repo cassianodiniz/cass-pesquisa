@@ -1,0 +1,55 @@
+# cass-pesquisa
+
+Skill para pesquisar evidências científicas com procedência. Ela ajuda a encontrar fontes,
+conferir os números no texto original, registrar a qualidade da evidência e deixar explícito o que
+os dados não permitem concluir.
+
+## Instalação mais fácil
+
+1. Baixe o arquivo [`cass-pesquisa.skill`](https://github.com/cassianodiniz/cass-pesquisa/releases/latest/download/cass-pesquisa.skill).
+2. Anexe ou indique o arquivo ao Claude Code ou ao Codex.
+3. Cole este pedido:
+
+> Instale este arquivo como uma skill pessoal e depois execute `/cass-pesquisa`. Se a Exa não
+> estiver disponível, use a busca e leitura nativas do ambiente.
+
+Depois da instalação:
+
+- No Claude Code, use `/cass-pesquisa`.
+- No Codex, use `$cass-pesquisa` ou escolha a skill pelo menu de skills.
+
+## O que precisa estar instalado
+
+- Claude Code ou Codex, já configurado e com acesso à internet.
+- Nada de Python, Node, npm, `npx` ou Firecrawl é necessário.
+- A Exa é recomendada, mas não obrigatória. Sem ela, a skill usa a busca e a leitura disponíveis no
+  próprio ambiente.
+
+## Instalação manual
+
+Se o agente não instalar automaticamente, extraia a pasta `cass-pesquisa` do arquivo `.skill` para:
+
+- Claude Code: `~/.claude/skills/cass-pesquisa/`
+- Codex: `~/.agents/skills/cass-pesquisa/`
+
+O arquivo final esperado é `cass-pesquisa/SKILL.md` dentro desse destino.
+
+## O que vem no pacote
+
+```text
+cass-pesquisa/
+├── SKILL.md
+└── references/
+    ├── auditor.md
+    └── ficha.md
+```
+
+O pacote não contém fichas de pesquisa, dados pessoais, credenciais ou chaves de API.
+
+## Contato
+
+**Cassiano Diniz**
+
+- Site: [Praxios](https://www.pda.praxios.com.br/)
+- Instagram: [@cassiano.diniz](https://www.instagram.com/cassiano.diniz/)
+
