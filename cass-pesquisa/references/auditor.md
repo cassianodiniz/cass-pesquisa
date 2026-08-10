@@ -111,8 +111,5 @@ não há segunda medição no país", e não BAIXA.
 jogaria toda ficha sem subagente para BAIXA e o rótulo pararia de significar algo. O que ela faz é
 **aparecer colada na faixa, sempre**: `MÉDIA (auditoria própria)`. Quem lê decide o peso.
 
-Por que não um desconto numérico: não há número confiável para calibrá-lo. O viés de um modelo
-avaliando o próprio texto está medido, mas uma reanálise de 37.448 avaliações atribui 89,6% do
-efeito à incerteza do avaliador em casos difíceis, não à autoria — e a evidência de que contexto
-novo resolve é um preprint de autor único. Direção conhecida, magnitude não. Inventar um desconto
-seria fabricar precisão que a evidência não tem.
+Não aplique desconto numérico: não há base confiável para calibrá-lo. Inventar um desconto seria
+fabricar precisão que a evidência não tem.

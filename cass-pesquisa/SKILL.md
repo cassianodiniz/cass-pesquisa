@@ -44,19 +44,10 @@ escreve texto para publicação — entrega a evidência.
 
   🚩 **No plano B, a busca serve pra LOCALIZAR a página; quem sustenta o fato é a leitura** — e é
   justamente a leitura que quebra. Nada de resultado de busca vira fato sem ter sido aberto e lido
-  (a regra "ler é obrigatório" vale igual no plano B). Medido em prova real (04/08/2026,
-  dado oficial de atividade física): a busca nativa achou as duas fontes primárias de primeira, sem
-  dificuldade — mas **a leitura nativa não abriu nenhum dos dois PDFs**, que é justamente o formato
-  em que Ministério da Saúde e IBGE publicam quase tudo, e um domínio oficial devolveu bloqueio de
-  acesso. A rodada só fechou porque havia um leitor de PDF disponível. Então, no plano B:
+  (a regra "ler é obrigatório" vale igual no plano B). Então, no plano B:
   1. PDF que o leitor comum não abre → **se houver um leitor de PDF dedicado, use-o**;
   2. não tiver, ou continuar sem abrir → **vá direto pras portas 1-4 da regra de ângulo**;
   3. três ângulos vazios → `fonte não lida`, e o número não é usado. Como sempre.
-
-  ⚠️ **O alcance desta medição:** foi **uma** consulta, com 34 links devolvidos e **2 documentos
-  lidos**. Ela prova que a leitura nativa de PDF falhou naquele caso; **não** prova que a busca
-  nativa acerta sempre, nem que as portas 1-4 resolvem o dado brasileiro em geral. Trate como
-  hipótese de trabalho, não como lei — e, quando a prática contrariar, ganha a prática.
 - Calcular a data de hoje explicitamente antes de qualquer busca com recorte de tempo.
 
 ---
@@ -74,12 +65,9 @@ aprendendo: qual é o formulário.
 
 ⛔ **Mostre a pergunta e os exemplos. Nada além disso.** Não escreva por que a pergunta importa,
 não comente o tema, não adiante palpite sobre a resposta ("imagino que no seu caso seja X"), não
-acrescente aviso nem observação. Medido em uso real (10/08/2026): com um "por quê" em cada
-pergunta, a skill **fabricou justificativas** — escreveu que o que vale para atleta de 25 anos
-"costuma não valer" para uma paciente de 60, afirmação que nenhuma fonte sustenta, e passou a
-adaptar os comentários ao tema de quem perguntava. Uma skill cujo trabalho é exigir frase literal
-de fonte não pode abrir a conversa inventando fato. **Os exemplos entre parênteses existem para
-mostrar o formato da resposta, não para ensinar.**
+acrescente aviso nem observação. Uma skill cujo trabalho é exigir frase literal de fonte não pode
+abrir a conversa inventando fato. **Os exemplos entre parênteses existem para mostrar o formato da
+resposta, não para ensinar.**
 
 **Exceção única:** se o pedido já trouxer as respostas, não pergunte de novo — repita em uma linha
 como você entendeu o escopo e siga.
@@ -160,12 +148,6 @@ tema um suplemento, um remédio, uma prevalência ou uma manchete para checar.
 
 ⛔ **Pergunta sem resposta fica escrita como sem resposta.** Não preencha ② com o número mais
 parecido, não invente ③ a partir do abstract, não deixe ④ vazio quando a literatura é dividida.
-
-Caso real do erro que isso evita: numa pesquisa sobre vitamina D e câncer, não existia dado de
-"quantos atingem a recomendação" — nenhum órgão recomenda vitamina D para prevenir câncer. O campo
-foi preenchido com "≥90% dos brasileiros consomem abaixo do recomendado", que é verdade e responde
-**outra pergunta** (adequação nutricional). Os dois números lado a lado insinuam uma relação que a
-ciência não sustenta. **Campo vazio é honesto; campo preenchido com o vizinho é ficha errada.**
 
 🚩 **A pergunta ④ é conteúdo, não sobra.** "Ninguém mediu isso no Brasil" e "os estudos discordam"
 são achados de pleno direito — muitas vezes o mais útil da ficha. Uma ficha que só mostra o que
@@ -254,9 +236,8 @@ mesmo número:**
 | **Timeout** | **2** chamadas seguidas estourando o tempo |
 | **Resposta vazia**, sem mensagem de erro | **2** seguidas |
 
-Já aconteceu em 5 rodadas reais — e numa delas um PDF de 213 páginas consumiu 217 créditos de um
-extrator e devolveu vazio. O sinal de crédito (402) está aqui porque **crédito não volta sozinho no
-meio da rodada**: insistir só queima o que sobrou.
+O sinal de crédito (402) está aqui porque **crédito não volta sozinho no meio da rodada**: insistir
+só queima o que sobrou.
 
 1. **Declare a queda uma vez e pare de insistir naquela ferramenta pela rodada inteira.** Tentar
    de novo não muda o resultado, só queima crédito e tempo.
@@ -322,8 +303,7 @@ li) > `não sustenta` (não existe, retratado, ou diz outra coisa).
 comunicado à imprensa **não passaram por revisão por pares** — são a origem de boa parte dos
 números virais de saúde. Achou o número numa dessas? Escreva o tipo ao lado
 (`carta ao editor, sem revisão por pares`) e trate como **o mais fraco da ficha**. Nunca apresente
-como "um estudo mostrou". Caso real: o número-manchete de um tema saiu de uma carta ao editor e a
-ficha o atribuiu a um artigo — o auditor pegou.
+como "um estudo mostrou".
 
 **Hierarquia de evidência:** meta-análise > revisão sistemática > ensaio randomizado > coorte >
 transversal. Estudo em animal ou in vitro nunca é evidência principal de conclusão para gente.
@@ -352,9 +332,8 @@ indicador, amostra e forma de coleta entre edições, e avisa em nota de rodapé
 ano isolado serve, **a comparação não** — e isso vai na pergunta ⑤.
 
 🚩 **Fonte certa, contexto errado.** Órgão de referência falando do assunto **vizinho** não vale
-como fonte do seu assunto. Caso real: a frase mais forte em português sobre vitamina D era de uma
-nota da SBEM sobre **covid-19**, não sobre câncer. A frase serve como contexto; a ficha **não pode**
-dizer "a SBEM disse isso sobre câncer". Antes de citar, confira sobre **o que** o documento fala.
+como fonte do seu assunto. A frase serve como contexto; a ficha **não pode** atribuí-la a outro
+tema. Antes de citar, confira sobre **o que** o documento fala.
 
 ---
 
@@ -365,20 +344,10 @@ Formato da ficha em `references/ficha.md`. Salvar em `fichas/<tema>-<AAAA-MM-DD>
 
 ## Custo e parada
 
-**Conte o TOTAL — o seu mais o de todos os ajudantes.** Contar só o seu contexto engana: medido em
-4 rodadas, o orquestrador fica em 35-65 mil enquanto o total vai a **400-800 mil**. É o preço da
-paralelização: sai do contexto, não some da conta.
-
-- **Referência de custo (não é trava):** uma ficha costuma dar 400-800 mil tokens no total. Serve
-  pra você reconhecer "isto está muito acima do normal", não pra abandonar a pesquisa no número.
-- **O tamanho do esforço acompanha o tamanho da pergunta** — como na `/search`, que não põe teto,
-  põe julgamento. **O piso, porém, é fixo: nunca menos de três ângulos.** Achar o que a evidência
-  mostra, procurar quem discorda dela, e procurar o que ninguém mediu são três buscas diferentes —
-  a segunda e a terceira não saem de graça da primeira, porque quem procura confirmação acha
-  confirmação. Tema que exige cruzar muita fonte → abre mais que três.
-  **Não existe número que force parada por custo:**
-  pesquisa que estoura o esperado é sinal de pergunta mal dimensionada (ou de tema que é grande
-  mesmo), não motivo pra largar no meio uma ficha que importa.
+- **O tamanho do esforço acompanha o tamanho da pergunta.** **O piso, porém, é fixo: nunca menos
+  de três ângulos.** Achar o que a evidência mostra, procurar quem discorda dela, e procurar o que
+  ninguém mediu são três buscas diferentes. Tema que exige cruzar muita fonte → abre mais que três.
+  Custo não é motivo para abandonar uma ficha no meio.
 - **Quer mais barato?** A alavanca é **menos páginas por ângulo**, não menos ângulos e nunca menos
   leitura. Os três ângulos do piso são o que impede a ficha de virar só a confirmação do que já se
   esperava; cortá-los é economizar exatamente na parte que dá valor à pesquisa.
